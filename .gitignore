@@ -5,4 +5,5 @@ RemoteSystemsTempFiles
 .classpath
 .settings
 target
+*.ucls
 
