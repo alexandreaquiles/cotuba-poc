@@ -33,7 +33,7 @@ public class RenderizadorDeMD {
 	}
 
 	private Stream<Path> obtemArquivosMD(Path diretorioDosMD) {
-		PathMatcher matcher = FileSystems.getDefault().getPathMatcher("glob:*.md");
+		PathMatcher matcher = FileSystems.getDefault().getPathMatcher("glob:**/*.md");
 		Stream<Path> arquivosMD = Stream.empty();
 		try {
 			arquivosMD = Files.list(diretorioDosMD).filter(arquivo -> matcher.matches(arquivo));
