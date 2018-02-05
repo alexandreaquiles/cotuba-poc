@@ -29,6 +29,29 @@
 			<groupId>nl.siegmann.epublib</groupId>
 			<artifactId>epublib-core</artifactId>
 			<version>3.1</version>
+			<exclusions>
+				<exclusion>
+					<groupId>net.sf.kxml</groupId>
+					<artifactId>kxml2</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>xmlpull</groupId>
+					<artifactId>xmlpull</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+
+		<dependency>
+			<groupId>net.sf.kxml</groupId>
+			<artifactId>kxml2</artifactId>
+			<version>2.5.1-SNAPSHOT</version>
+			<classifier>jar-with-dependencies</classifier>
+			<exclusions>
+				<exclusion>
+					<groupId>org.xmlpull</groupId>
+					<artifactId>xmlpull</artifactId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 
 		<dependency>
