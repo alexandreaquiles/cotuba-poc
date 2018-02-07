@@ -1,5 +1,5 @@
 module tema.paradizo {
-	requires cotuba.cli;
+	requires cotuba;
 	requires jsoup;
 
 	provides cotuba.plugin.LogoAposRenderizarMDParaHTML with br.com.paradizo.cotuba.tema.TemaParadizo;

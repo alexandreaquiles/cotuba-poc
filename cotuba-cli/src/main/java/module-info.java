@@ -1,4 +1,4 @@
-module cotuba.cli {
+module cotuba {
 	exports cotuba.plugin;
 	exports cotuba.domain;
 
@@ -8,6 +8,7 @@ module cotuba.cli {
 
 	requires html2pdf;
 	requires kernel;
+	requires io;
 	requires layout;
 
 	requires org.commonmark;

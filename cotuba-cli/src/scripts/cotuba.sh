@@ -1,3 +1,3 @@
 #!/bin/bash
-java --module-path libs --module cotuba.cli/cotuba.Main "$@"
+java --module-path libs --module cotuba/cotuba.Main "$@"
 
