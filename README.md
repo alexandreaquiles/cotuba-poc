@@ -16,14 +16,12 @@ Olhando um pouquinho mais de perto, o Cotuba faz o seguinte:
 
 ## Instalando
 
-1. Clonar https://github.com/alexandreaquiles/xmlpull-api-v1 e executar `mvn install`
-2. Clonar https://github.com/alexandreaquiles/kxml2 e executar `mvn install`
-3. Ir até `cotuba-cli` e executar `mvn install`
-4. Ir até `tema-paradizo` e executar `mvn package`
-5. Copiar o ZIP de `cotuba-cli/target`
-6. Copiar o ZIP de `tema-paradizo/target`
-7. Descompactar os ZIPs em alguma pasta, fazendo o merge da pasta `libs`
-8. Executar `./cotuba.sh`
+1. Ir até `cotuba-cli` e executar `mvn install`
+2. Ir até `tema-paradizo` e executar `mvn package`
+3. Copiar o ZIP de `cotuba-cli/target`
+4. Copiar o ZIP de `tema-paradizo/target`
+5. Descompactar os ZIPs em alguma pasta, fazendo o merge da pasta `libs`
+6. Executar `./cotuba.sh`
 
 ## Opções
 

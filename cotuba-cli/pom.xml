@@ -109,6 +109,10 @@
 			<name>iText Repository-releases</name>
 			<url>https://repo.itextsupport.com/releases</url>
 		</repository>
+		<repository>
+		    <id>mvn-repo</id>
+		    <url>https://rawgit.com/alexandreaquiles/mvn-repo/master</url>
+    	</repository>
 	</repositories>
 
 </project>
